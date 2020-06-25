@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/date_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2019/11/16"
+        android:textSize="30dp" />
+
+    <ImageView
+            android:id="@+id/main_reset"
+            android:layout_gravity="right"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/recycle" />
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="3"
+        >
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_glass_percent"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="%"
+                android:textSize="25dp"
+                />
+
+            <ImageView
+                android:id="@+id/main_glass_img"
+                android:layout_width="wrap_content"
+                android:layout_height="154dp"
+                android:src="@drawable/trashbin" />
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="유리"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_can_percent"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="%"
+                android:textSize="25dp"
+                />
+
+            <ImageView
+                android:id="@+id/main_can_img"
+                android:layout_width="wrap_content"
+                android:layout_height="154dp"
+                android:src="@drawable/trashbin" />
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="캔"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_plastic_percent"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="%"
+                android:textSize="25dp"
+                />
+
+            <ImageView
+                android:id="@+id/main_plastic_img"
+                android:layout_width="wrap_content"
+                android:layout_height="154dp"
+                android:src="@drawable/trashbin" />
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="플라스틱"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+   </LinearLayout>
