@@ -1,4 +1,4 @@
-# automatic-recycler_arduino-rasberry-pi-app
+# automatic-recycler_arduino-raspberry-pi-app
 금속, 유리, 플라스틱을 자동으로 분리해주는 쓰레기통.
 
 
